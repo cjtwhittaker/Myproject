@@ -41,5 +41,24 @@ git reset --soft HEAD
 
 and we can use ^ to reset to the one before the current commit, ^^ to get to the one before that, or ~5 will do a roll back to 5 commits ago
 but here we will keep them all in the staging so that we dony't loose all the data.  however usign a hard reset will get it back 
+can be useful for adding a single file which you forgot to add to a commit, or just updating the contents of the files to the commit
+
+git commit --ammend -m "added a new file"
+#is a simple way of just adding the current files in the staging to the previous commit
+
 
 git reset --hard
+#hard reset which undoes the last commit and all the changes applied since then.
+
+git reset "filename"
+#will take the item out of staging
+
+git branch new-branch
+#creates a new branch called new-branch
+
+git branch 
+#lists the branches of the project
+
+git checkout new-branch
+#will then swicht to the new branch as indicated by the star now next to new-branch
+
