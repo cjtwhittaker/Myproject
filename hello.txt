@@ -1,0 +1,21 @@
+SELECT name, continent, population FROM world
+	WHERE name IN(
+		SELECT continent FROM world
+		WHERE
+)
+
+
+SHOW ALL OF THE  COUNTRIES IN A CONTINENT WHERE ALL OF THE COUNTRIES HAVE A POPULATION OF  LESS THAN 250,000,000
+
+SORT POPULATION OF EACH COUNTRY DESCENDING AND PICK THE ONE WITH A HIGHEST POPULATION WHICH IS LESS THAN 250,000,000
+
+
+show the highest population in each continent
+
+
+SELECT population FROM world 
+WEHRE population<250,000,000
+
+get each country and sort them so that the top result 
+
+want to 

@@ -1,0 +1,45 @@
+git add . 
+will add all files in the current directory to the 
+
+
+git commit -m "Created hello text file"
+#this commits the change and the -m part is for any notes you want
+
+git status
+#shows the status of the current files
+
+git diff
+#shows what has been changed in the files
+
+git diff tool
+#Opens the differences in beyond compare (need to figure out how to do that)
+
+git diff --staged
+#shows the difference in the files that are staged from the already committed files
+
+git log
+git log --oneline
+#shows the log of the history of commits, and the oneline part just shows a small amount of data
+
+git log --oneline --graph
+git log --oneline --graph --decorate
+#shows a graphical output of the branching of the project.
+#and decorate will add a bit more info showing things like the head and master of the project, and is very useful, so may be worth setting up a shortcut
+
+
+
+crlf to lf line endings (need to look up)
+
+
+git checkout .
+#undoes all of the things to the currently staged version, this is the quick undo feature
+
+
+head is the latest commit, to roll back to this we use
+
+git reset --soft HEAD
+
+and we can use ^ to reset to the one before the current commit, ^^ to get to the one before that, or ~5 will do a roll back to 5 commits ago
+but here we will keep them all in the staging so that we dony't loose all the data.  however usign a hard reset will get it back 
+
+git reset --hard

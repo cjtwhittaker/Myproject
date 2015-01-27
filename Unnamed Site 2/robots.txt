@@ -1,0 +1,4 @@
+Sitemap: http://charliewhittaker.com/sitemap.xml
+
+User-agent: *
+Disallow: 
